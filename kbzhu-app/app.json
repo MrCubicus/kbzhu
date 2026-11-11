@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "КБЖУ",
+    "slug": "kbzhu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.kbzhu.app",
+      "permissions": ["CAMERA"]
+    },
+    "ios": {
+      "bundleIdentifier": "com.kbzhu.app"
+    },
+    "plugins": [
+      ["expo-camera", { "cameraPermission": "Камера нужна, чтобы фотографировать еду и считать КБЖУ" }],
+      "expo-secure-store"
+    ]
+  }
+}
